@@ -16,7 +16,7 @@ variables_finales = [
 ]
 
 # Cargar el modelo
-ruta_proyecto = 'C:/Users/Alfonso/OneDrive/Documentos_/Formación/Bootcamp_DS/Repo_DS/Proyect_Break_ML/00_PROYECTO_ML'
+ruta_proyecto = 'C:/Users/Alfonso/OneDrive/Documentos_/Formación/Bootcamp_DS/Repo_DS/Proyect_Break_ML/Proyecto_ML/00_PROYECTO_ML'
 nombre_pipe_ejecucion = 'pipe_ejecucion.pickle'
 ruta_pipe_ejecucion = f'{ruta_proyecto}/04_Modelos/{nombre_pipe_ejecucion}'
 
