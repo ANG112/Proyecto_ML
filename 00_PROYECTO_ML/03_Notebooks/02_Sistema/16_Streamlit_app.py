@@ -103,7 +103,7 @@ if pagina_seleccionada == "Predicción de Marketing":
     modelo_seleccionado = st.radio(
         "Opciones de modelo:",
         ('Modelo agresivo captación clientes', 'Modelo moderado captación de clientes', 
-         'Equilibrio entre captación y costes', 'Maximizando los costes')
+         'Equilibrio entre captación y costes', 'Minimizando los costes')
     )
 
     # Asignar el umbral basado en la selección del usuario
@@ -114,7 +114,7 @@ if pagina_seleccionada == "Predicción de Marketing":
         umbral = UMBRAL_MODERADO
     elif modelo_seleccionado == 'Equilibrio entre captación y costes':
         umbral = UMBRAL_EQUILIBRIO
-    elif modelo_seleccionado == 'Maximizando los costes':
+    elif modelo_seleccionado == 'Minimizando los costes':
         umbral = UMBRAL_COSTES
 
     if submit_button:
@@ -140,7 +140,7 @@ elif pagina_seleccionada == "Selección de Clientes":
     modelo_seleccionado = st.radio(
         "Opciones de modelo:",
         ('Modelo agresivo captación clientes', 'Modelo moderado captación de clientes', 
-         'Equilibrio entre captación y costes', 'Maximizando los costes')
+         'Equilibrio entre captación y costes', 'Minimizando los costes')
     )
 
     # Asignar el umbral basado en la selección del usuario
@@ -151,7 +151,7 @@ elif pagina_seleccionada == "Selección de Clientes":
         umbral = UMBRAL_MODERADO
     elif modelo_seleccionado == 'Equilibrio entre captación y costes':
         umbral = UMBRAL_EQUILIBRIO
-    elif modelo_seleccionado == 'Maximizando los costes':
+    elif modelo_seleccionado == 'Minimizando los costes':
         umbral = UMBRAL_COSTES
 
     # Ruta del archivo CSV
